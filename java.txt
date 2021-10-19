@@ -21,7 +21,7 @@
     -ALTRIMENTI la correggo e la ricontrollo 
 
 8 inizio a scrivere una sezione 
-    -SE mi blocco o qualcosa non va: controllo cosa no va per correggerlo e poi ritorno a scrivere 
+    -SE mi blocco o qualcosa non va: controllo cosa non va per correggerlo e poi ritorno a scrivere 
         -SE mi blocco per 5 volte: passo alla sezione successiva e questa la metto in coda "da finire"
         -ALTRIMENTI vado avanti
     -ALTRIMENTI vado avanti
@@ -34,5 +34,8 @@
             -ALTRIMENTI vado avanti
     -ALTRIMENTI: ricontrollo
 
-    
+10 guardo che sia tutto ordinato e scritto bene 
+    -SE no: cancello eventuali regole di debug, correggo l'indentazione e vari errori di pulizia
+    -ALTRIMENTI vado avanti
 
+11 completo il tutto facendo l'ultimo commit "completo" 
