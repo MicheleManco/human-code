@@ -1,4 +1,4 @@
-1 mi fermo
+1 mi fermo in corrispondenza delle strisce 
 
 2 guardo se c'è il semaforo
     -SE c'è il semaforo: guardo se c'è il pulsante per la chiamata
