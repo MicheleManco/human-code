@@ -22,12 +22,17 @@
 
 8 inizio a scrivere una sezione 
     -SE mi blocco o qualcosa non va: controllo cosa no va per correggerlo e poi ritorno a scrivere 
-        -SE mi blocco per 5 volte: passo alla sezione successiva e ci ritorno alla fine
+        -SE mi blocco per 5 volte: passo alla sezione successiva e questa la metto in coda "da finire"
         -ALTRIMENTI vado avanti
     -ALTRIMENTI vado avanti
 
 9 controllo che la sezione che ho appena scritto sia tutta corretta e rispetti le specifiche date 
-    -SE si: vado avanti
+    -SE si: faccio un staging, un commit "nome della sezione", pusho e poi passo alla sezione successiva
+        -SE c'è: continuo con la prossima sezione 
+        -ALTRIMENTI vado su quelle in coda
+            -SE ci sono delle sezioni in coda: finisco di scrivere quelle 
+            -ALTRIMENTI vado avanti
     -ALTRIMENTI: ricontrollo
 
-10
+    
+
