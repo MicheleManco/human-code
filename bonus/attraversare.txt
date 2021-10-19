@@ -1,0 +1,15 @@
+1 mi fermo
+
+2 guardo se c'è il semaforo
+    -SE c'è il semaforo: guardo se c'è il pulsante per la chiamata
+        -SE c'è: allora lo schiaccio e aspetto che diventi verde per i pedoni
+        -ALTRIMENTI: aspetto che diventi verde e poi guardo se le macchine si fermano
+            -SE si fermano: passo
+            -ALTRIMENTI : aspetto che si fermano e poi passo
+    -ALTRIMENTI: guardo a sinistra e poi a destra 
+        -SE non c'è nessuno: passo
+        -ALTRIMENTI : guardo da che lato arrivano
+            -SE arrivano da sinistra: aspetto
+            -ALTRIMENTI inizio a camminare e guardo a destra
+                -SE a destra si fermano: passo
+                -ALTRIMENTI aspetto finche non si fermano e poi passo
